@@ -44,7 +44,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.MnPowersOfAttorney',
-      version='1.0.1',
+      version='1.1.0',
       description=('Powers of Attorney'),
       long_description='# docassemble.MnPowersOfAttorney\r\n\r\nPowers of Attorney\r\n\r\n## Author\r\n\r\nQuinten Steenhuis\r\n\r\n',
       long_description_content_type='text/markdown',
@@ -54,7 +54,7 @@ setup(name='docassemble.MnPowersOfAttorney',
       url='https://www.lawhelpmn.org/self-help-library/legal-resource/power-attorney-do-it-yourself',
       packages=find_packages(),
       namespace_packages=['docassemble'],
-      install_requires=['docassemble.ALAnyState', 'docassemble.AssemblyLine>=2.24.0'],
+      install_requires=[],
       zip_safe=False,
       package_data=find_package_data(where='docassemble/MnPowersOfAttorney/', package='docassemble.MnPowersOfAttorney'),
      )
